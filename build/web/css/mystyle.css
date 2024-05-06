@@ -1,0 +1,53 @@
+body
+{
+    
+}
+
+.primary-background{
+  
+background: linear-gradient(to right,#f7b42c,#fc575e);
+
+
+}
+#nav
+        {
+            background: linear-gradient(to right,#f7b42c,#fc575e);
+            
+        }
+        #home,#back,#prof,#out,#pos,#con,#cat,#log,#sin,#les{
+            
+            color:black;
+        }
+        #home:hover,#back:hover,#prof:hover,#out:hover,#pos:hover,#cat:hover,#con:hover,#sin:hover,#log:hover,#les:hover{
+            color : white;
+        }
+   .modal-content{
+            
+            width: 1200px !important;
+            height: 100%;
+            position: fixed;
+            left : -300px;
+        }
+        .modal-body{
+            background: linear-gradient(to right,#f7b42c,#fc575e)!important;
+            font-family: cursive;
+            font-weight: bolder;
+            font-size: 25px;
+        } 
+        .modal-header,.modal-footer
+        {     
+             font-family: cursive;
+             background: linear-gradient(to left,#f7b42c,#fc575e)!important;
+             color: black !important;
+             font-size: 35px !important;
+             font-weight: bolder!important;
+           
+        }
+        .modal-title
+        {
+             font-size: 35px !important;
+             font-weight: bolder!important;
+        }
+        .modal{
+            background: linear-gradient(to right, #dd5e89  , #f7bb97,#f7bb97 ,#dd5e89  , #f7bb97  ,#dd5e89) !important;
+        }
